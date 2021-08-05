@@ -9,6 +9,9 @@
 html{
     scroll-behavior: smooth;
 }
+html,body{
+  overflow-x: hidden;
+}
 
 
 .background{
@@ -297,6 +300,9 @@ form {
   width: 58.3333333333%;
   margin: 0 auto;
 }
+.logo2{
+  width: 200px;
+}
 form .field {
   width: 100%;
   position: relative;
@@ -388,11 +394,8 @@ form input[type="submit"]:hover {
   color: #f79600;
 }
 
-@media (max-width:765px) {
+@media (max-width:650px) {
   form {
-    width: 100%;
-  }
-  body section {
     width: 100%;
   }
 }

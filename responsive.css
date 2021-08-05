@@ -7,6 +7,25 @@
 		float: right;
 		display: block;
 	}
+	.imgFluid {
+		display: none;
+	}
+	.play-button{
+		width: 8%;
+	}
+	.btn{
+		padding: 6px 15px;
+		margin: 6px 2px;
+		border: 2px solid #98ff98;
+		border-radius: 5px;
+		background: darkred;
+		color: #98ff98;
+		cursor: pointer;
+		font-size: 15px;
+
+
+
+	}
 }
 @media screen and (max-width: 730px) {
 	.topnav.responsive {
@@ -41,6 +60,12 @@
 		width: 100%;
 		margin-top: 0;
 	}
+	.play-button{
+		width: 10%;
+	}
+
+
+	
 }
 .active, .dot:hover {
 	background-color: #717171;
@@ -75,7 +100,29 @@
 	.prev, .next, .text {
 		font-size: 11px
 	}
+	.btn{
+		padding: 4px 10px;
+		margin: 4px 2px;
+		border: 2px solid #98ff98;
+		border-radius: 4px;
+		background: darkred;
+		color: #98ff98;
+		cursor: pointer;
+		font-size: 10px;
+
+
+
+	}
+	body{
+		width: 100%;
+	}
 }
+
+@media only screen and (max-width: 770px) {
+	#pbtn {
+		display: none
+	}
+	}
 @media screen and (max-width: 1919px) {
 	.sectionf {
 		border: none;
@@ -90,4 +137,16 @@
 		left: 30%;
 		top: 70%;
 	}
+}
+@media screen and (max-width: 1480px) {
+	.section{
+		max-width: 100%;
+		margin: 0;
+	}
+	.play-button{
+		width: 5%;
+	}
+}
+@media screen and (max-width: 1550px) {
+
 }

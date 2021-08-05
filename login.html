@@ -1,0 +1,220 @@
+<html>
+<html>
+
+<head>
+	<link href="http://fonts.cdnfonts.com/css/amerika" rel="stylesheet">
+	<link href="http://fonts.cdnfonts.com/css/furore" rel="stylesheet">
+  <meta charset="UTF-8">
+</head>
+<style>
+@import url('http://fonts.cdnfonts.com/css/amerika');
+@import url('http://fonts.cdnfonts.com/css/furore');
+
+    html {
+	background-image: url("login.jpg");
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+}
+#logo {
+	animation: logo-entry 4s ease-in;
+	width: 200px;
+	margin: 150px auto;
+	position: relative;
+}
+h1 {
+	animation: text-glow 2s ease-out infinite alternate;
+	font-family: 'Furore', sans-serif;
+	color: #74ebe6;
+	font-size: 48px;
+	font-weight: bold;
+	position: absolute;
+	text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+	top: 90px;
+}
+h1:before {
+	animation: before-glow 2s ease-out infinite alternate;
+	border-left: 535px solid transparent;
+	border-bottom: 10px solid #74ebe6;
+	content: ' ';
+	position: absolute;
+	right: -74px;
+	top: -10px;
+}
+h1:after {
+	animation: after-glow 2s ease-out infinite alternate;
+	border-left: 100px solid transparent;
+	border-top: 16px solid #74ebe6;
+	content: '';
+	position: absolute;
+	right: -83px;
+	top: 24px;
+	transform: rotate(-47deg);
+}
+#fade-box {
+	animation: input-entry 3s ease-in;
+}
+.stark-login form {
+	animation: form-entry 3s ease-in-out;
+	background: #111;
+	background: linear-gradient(#74ebe6, #74ebe6);
+	border: 10px solid #74ebe6;
+	box-shadow: 0 0 15px #74ebe6;
+	border-radius: 10px;
+	display: inline-block;
+	height: 200px;
+	margin: 300px auto 0;
+	position: relative;
+	width: 500px;
+	transition: 1s all;
+}
+.stark-login form:hover {
+	border: 6px solid #74ebe6;
+	box-shadow: 0 0 25px #74ebe6;
+	transition: 1s all;
+}
+.stark-login input {
+	background: #222;
+	background: linear-gradient(#333333, #222222);
+	border: 1px solid #444;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #000;
+	color: #74ebe6;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Amerika', sans-serif;
+	height: 40px;
+	margin: 20px auto 10px;
+	padding: 0 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 400px;
+}
+.stark-login input:focus {
+	animation: box-glow 1s ease-out infinite alternate;
+	background: #0B4252;
+	background: linear-gradient(#333933, #222922);
+	border-color: #00fffc;
+	box-shadow: 0 0 5px rgba(0, 255, 253, 0.2), inset 0 0 5px rgba(0, 255, 253, 0.1), 0 2px 0 black;
+	color: #efe;
+	outline: none;
+}
+.stark-login a {
+	animation: input-entry 3s ease-in;
+	background: linear-gradient(#333333, #222222);
+	box-sizing: content-box;
+	border: 1px solid #444;
+	border-left-color: #000;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #000;
+	color: rgb(255, 255, 255);
+	display: block;
+	height: 40px;
+	margin: 20px auto;
+	padding-top: 10px ;
+	position: relative;
+	text-shadow: 0 -1px 0 #000;
+	width: 400px;
+	transition: 1s all;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Furore', sans-serif;
+
+}
+@keyframes logo-entry {
+	0% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes input-entry {
+	0% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes form-entry {
+	0% {
+		height: 0;
+		width: 0;
+		opacity: 0;
+		padding: 0;
+	}
+	20% {
+		height: 0;
+		border: 1px solid #00a4a2;
+		width: 0;
+		opacity: 0;
+		padding: 0;
+	}
+	40% {
+		width: 0;
+		height: 220px;
+		border: 6px solid #00a4a2;
+		opacity: 1;
+		padding: 0;
+	}
+	100% {
+		height: 220px;
+		width: 500px;
+	}
+}
+@keyframes box-glow {
+	0% {
+		border-color: #00b8b6;
+		box-shadow: 0 0 5px rgba(0, 255, 253, 0.2), inset 0 0 5px rgba(0, 255, 253, 0.1), 0 2px 0 black;
+	}
+	100% {
+		border-color: #00fffc;
+		box-shadow: 0 0 20px rgba(0, 255, 253, 0.6), inset 0 0 10px rgba(0, 255, 253, 0.4), 0 2px 0 black;
+	}
+}
+@keyframes text-glow {
+	0% {
+		color: #00a4a2;
+		text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+	}
+	100% {
+		color: #00fffc;
+		text-shadow: 0 0 20px rgba(0, 255, 253, 0.6), 0 0 10px rgba(0, 255, 253, 0.4), 0 2px 0 black;
+	}
+}
+</style>
+
+<body>
+
+  <div id="logo"> 
+  <h1><i> GAMENIX</i></h1>
+</div> 
+<section class="stark-login">
+
+  <form>	
+    <div id="fade-box">
+		<input type="text" placeholder="Username" name="username">
+                <input type="password" placeholder="Password" name="password">
+                <input type="submit" onclick="check(this.form)" name="btn_submit" value="Login">
+    </div>
+  </form>
+       
+</section>
+<script>
+	function check(form) {
+		if (form.username.value == "gamenix" && form.password.value == "fullmarks") {
+			window.open("Gamenix-Relive the games.html");
+		} else {
+			alert("Wrong Username Or Password");
+		}
+	}
+</script>
+</body>
+</html>

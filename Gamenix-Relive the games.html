@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width , initial-scale=1.0" name="viewport">
+  <link href="style.css" rel="stylesheet">
+  <link href="responsive.css" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/multistrokes" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/contra" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js">
+  </script>
+  <link
+    href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
+    rel='stylesheet' type='text/css'>
+
+  <title>Gamenix</title>
+  <link href="logo1.png" rel="shortcut icon">
+  <!--This is to import icon library for the hamburger (bars) menu-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <img alt="logo" class="nav-logo" src="logo1.png"> <a href="#home">Home</a> <a href="#about">About</a> <a
+      href="#myForm">Contact Us</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Game Menu <i class="fa fa-caret-down"></i></button>
+
+      <div class="dropdown-content">
+        <a href="#pong">PONG</a> <a href="#snake">SNAKE</a> <a href="#gun-shot">GUN SHOT</a> <a
+          href="#space-invader">SPACE INVADER</a> <a href="#catch">CATCH ME IF YOU CAN</a>
+      </div>
+    </div>
+    <a class="icon" href="javascript:void(0);" onclick="myFunction()" style="font-size:22px;">&#9776;</a>
+  </div>
+
+
+  <div class="slideshow-container">
+    <div class="mySlides fade"><img class="slide-images" src="slide1.png">
+    </div>
+
+
+    <div class="mySlides fade"><img class="slide-images" src="slide2.png">
+    </div>
+
+
+    <div class="mySlides fade"><img class="slide-images" src="slide3.png">
+    </div>
+
+
+    <div class="mySlides fade"><img class="slide-images" src="slide6.png">
+    </div>
+
+
+    <div class="mySlides fade"><img class="slide-images" src="slide4.png">
+    </div>
+
+
+    <div class="mySlides fade">
+      <img class="slide-images" src="slide5.png"> 
+      <div class="btn-bar">
+        <a class="btn" href="https://www.youtube.com/channel/UCUQ76H9Zo8AaMuYE2Qzl2uQ"> Subscribe</a> <a class="btn" href="https://www.youtube.com/watch?v=Ovib_gUiinc">Watch
+        Video</a>
+      </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+
+  <div class="yo">
+    <section class="section" id="services">
+      <div class="paras">
+        <p class="sectionTag text-big" id="pong">PONG <a href="game1.html" target="_blank"><img class="play-button"
+              src="play%20button.png"></a> <i class="fa fa-thumbs-up" onclick="myFunction1(this)"></i></p>
+
+
+        <p class="sectionSubTag text-small">If you google “First game created” likely Pong will pop up, It’s not
+          officially the first game to be created, but it is the first commercially successful. It was created in June
+          1972!</p>
+      </div>
+
+
+      <div class="thumbnail"><img alt="laptop image" class="imgFluid" src="ping.gif">
+      </div>
+    </section>
+
+
+    <section class="section section-left">
+      <div class="paras">
+        <p class="sectionTag text-big" id="snake">SNAKE <a href="snake.html" target="_blank"><img class="play-button"
+              src="play%20button.png"></a> <i class="fa fa-thumbs-up" onclick="myFunction1(this)"></i></p>
+
+
+        <p class="sectionSubTag text-small">The player controls a long, thin creature, resembling a snake, which roams
+          around on a bordered plane, picking up food (or some other item), trying to avoid hitting its own tail or the
+          edges of the playing area. Each time the snake eats a piece of food, its tail grows longer, making the game
+          increasingly difficult.</p>
+      </div>
+
+
+      <div class="thumbnail"><img alt="game image" class="imgFluid" src="snake%20game.gif">
+      </div>
+    </section>
+
+
+    <section class="section">
+      <div class="paras">
+        <p class="sectionTag text-big" id="gun-shot">Gun Shot <a href="gun%20shot.html" target="_blank"><img
+              class="play-button" src="play%20button.png"></a> <i class="fa fa-thumbs-up"
+            onclick="myFunction1(this)"></i></p>
+
+
+        <p class="sectionSubTag text-small">Gun shot is a brilliant game . It's pretty simple game . its multiplayer
+          game that can be played on one device</p>
+      </div>
+
+
+      <div class="thumbnail"><img alt="game image" class="imgFluid" src="gunshot.gif">
+      </div>
+    </section>
+
+
+    <section class=" section section-left">
+      <div class="paras">
+        <p class="sectionTag text-big" id="space-invader">SPACE INVADERS <a href="space%20invade.html"
+            target="_blank"><img class="play-button" src="play%20button.png"></a> <i class="fa fa-thumbs-up"
+            onclick="myFunction1(this)"></i></p>
+
+
+        <p class="sectionSubTag text-small">By far the most popular game released in 1978 was Space Invaders. In just 4
+          years it had grossed 3.8 billion, and it needs no introduction.This is fun to play in free time.It's a litte
+          addictive game for children , So play it cautiously.</p>
+      </div>
+
+
+      <div class="thumbnail"><img alt="game image" class="imgFluid" src="space%20invaders.gif">
+      </div>
+    </section>
+
+
+    <section class="section">
+      <div class="paras">
+        <p class="sectionTag text-big" id="catch">Catch me if you can <a href="catch.html" target="_blank"><img
+              class="play-button" src="play%20button.png"></a> <i class="fa fa-thumbs-up"
+            onclick="myFunction1(this)"></i></p>
+
+
+        <p class="sectionSubTag text-small">A fun little endless game that challenges your reflexes with endless fun. A small box that runs away from you whenver you come near it... Can You Catch It?? ;)</p>
+      </div>
+
+
+      <div class="thumbnail"><img alt="game image" class="imgFluid" src="catch.gif">
+      </div>
+    </section>
+
+    <section class="sectionf" id="contactME">
+      <img src="logo2.png" style="width:300px">
+
+      <h1>Contact Me</h1>
+
+
+      <form id="myForm">
+        <div class="field name-box">
+          <input id="name" placeholder="Who Are You?" type="text"> <label for="name">Name</label>
+        </div>
+
+
+        <div class="field email-box">
+          <input id="email" placeholder="name@email.com" type="text"> <label for="email">Email</label>
+        </div>
+
+
+        <div class="field msg-box">
+          <textarea id="msg" placeholder="Your message goes here..." rows="4"></textarea> <label
+            for="msg">Message</label>
+        </div>
+        <!-- <input class="button" type="submit" value="Send"> -->
+        <input class="button" type ="submit" value="Send" onclick="myFunction_1()">
+      </form>
+    </section>
+  </div>
+
+
+  <footer class="background">
+    <p class="text-footer">Copyright &copy; 2021 Gamenix friends and co. - All rights reserved</p>
+  </footer>
+  <script src="resp.js">
+  </script>
+</body>
+</html>
